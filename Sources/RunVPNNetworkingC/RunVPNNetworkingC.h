@@ -1,5 +1,5 @@
-#ifndef Tun2SocksKitC_H
-#define Tun2SocksKitC_H
+#ifndef RunVPNNetworkingC_H
+#define RunVPNNetworkingC_H
 
 #include <stdint.h>
 
@@ -24,4 +24,4 @@ struct sockaddr_ctl {
     u_int32_t   sc_reserved[5];
 };
 
-#endif /* Tun2SocksKitC_H */
+#endif /* RunVPNNetworkingC_H */

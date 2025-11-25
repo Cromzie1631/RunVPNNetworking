@@ -1,4 +1,4 @@
-# Tun2SocksKit
+# RunVPNNetworking
 
 
 This repository is a wrapper and a build workflow for [hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel)
@@ -9,12 +9,12 @@ This code originally belonged to [arror](https://github.com/arror/). I'm just ma
 If you appreciate this repo, give him a thanks.
 
 ## Usage
-You only need to import `Tun2SocksKit`
+You only need to import `RunVPNNetworking`
 ```swift
-import Tun2SocksKit
+import RunVPNNetworking
 ```
 
-### Running Tun2SocksKit
+### Running RunVPNNetworking
 
 Use a file URL to run it
 ```swift

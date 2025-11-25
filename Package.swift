@@ -3,24 +3,24 @@
 import PackageDescription
 
 let package = Package(
-  name: "Tun2SocksKit",
+  name: "RunVPNNetworking",
   products: [
     .library(
-        name: "Tun2SocksKit",
-        targets: ["Tun2SocksKit"]
+        name: "RunVPNNetworking",
+        targets: ["RunVPNNetworking"]
     ),
     .library(
-        name: "Tun2SocksKitC",
-        targets: ["Tun2SocksKitC"]
+        name: "RunVPNNetworkingC",
+        targets: ["RunVPNNetworkingC"]
     )
   ],
   targets: [
     .target(
-        name: "Tun2SocksKit",
-        dependencies: ["HevSocks5Tunnel", "Tun2SocksKitC"]
+        name: "RunVPNNetworking",
+        dependencies: ["HevSocks5Tunnel", "RunVPNNetworkingC"]
     ),
     .target(
-        name: "Tun2SocksKitC",
+        name: "RunVPNNetworkingC",
         publicHeadersPath: "."
     ),
     .binaryTarget(
